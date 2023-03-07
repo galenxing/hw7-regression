@@ -1,4 +1,5 @@
 # HW 7: logistic regression
+![BuildStatus](https://github.com/galenxing/hw7-regression/actions/workflows/main.yml/badge.svg?)
 
 In this assignment, you'll implement a classifier using logistic regression, optimized with gradient descent.
 
