@@ -119,7 +119,7 @@ class LogisticRegressor(BaseRegressor):
     
     def make_prediction(self, X) -> np.array:
         """
-        TODO: Implement logistic function to get estimates (y_pred) for input X values. The logistic
+        Implements logistic function to get estimates (y_pred) for input X values. The logistic
         function is a transformation of the linear model into an "S-shaped" curve that can be used
         for binary classification.
 
@@ -134,7 +134,7 @@ class LogisticRegressor(BaseRegressor):
     
     def loss_function(self, y_true, y_pred) -> float:
         """
-        TODO: Implement binary cross entropy loss, which assumes that the true labels are either
+        Implements binary cross entropy loss, which assumes that the true labels are either
         0 or 1. (This can be extended to more than two classes, but here we have just two.)
 
         Arguments:
@@ -150,7 +150,7 @@ class LogisticRegressor(BaseRegressor):
         
     def calculate_gradient(self, y_true, X) -> np.ndarray:
         """
-        TODO: Calculate the gradient of the loss function with respect to the given data. This
+        Calculates the gradient of the loss function with respect to the given data. This
         will be used to update the weights during training.
 
         Arguments:
